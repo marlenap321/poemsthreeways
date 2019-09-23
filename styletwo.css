@@ -1,0 +1,180 @@
+body{
+    background-color:white;
+}
+.website_grid{
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+}
+h1{
+    color: white;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    margin-top:100px;
+    margin-left: 75px;
+
+}
+h3{
+    color:#D2E0E2;
+    font-size: 1.75em;
+    float: right;
+    margin-top:-50px;
+    margin-right: 75px;
+    font-family: helvetica, sans-serif;
+
+}
+p{
+    color: darkgray;
+    font-size: 1em;
+    font-family: helvetica, sans-serif;
+    text-align: right;
+    margin-right: 60px;
+
+}
+.title_box{
+    width:60%;
+    height: 1000px;
+    background-color: #6A8693;
+    float: left;
+
+}
+.line{
+    width: 55vw;
+    height: 3px;
+    background-color: #D2E0E2;
+    float: right;
+}
+.poem{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-top: 150px;
+}
+.stanza_one{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 25px;
+}
+.stanza_two{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 25px;
+}
+.stanza_three{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 25px;
+}
+.stanza_four{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        background-color: white;
+    }
+    h1{
+        color: white;
+        font-size: 4.25em;
+        font-weight: bold;
+        font-family: Georgia, serif;
+        margin-top: 425px;
+        margin-bottom: 60px;
+    }
+    h3{
+        color: #D2E0E2;
+        font-size: 1.75em;
+        float: left;
+        margin-left: 75px;
+        font-family: helvetica, sans-serif;
+    }
+    p{
+        color: darkgray;
+        font-size: 1.25em;
+        font-family: helvetica, sans-serif;
+        text-align: left;
+        margin-left: 225px;
+    }
+    .title_box{
+        width: 100%;
+        height: 625px;
+        background-color: #6A8693;
+        margin: auto;
+    }
+    .line{
+        width: 0px;
+        height: 0px;
+    }
+    .poem{
+        width: 85%;
+        height: 100%;
+        margin-top: 100px;
+}
+    .line_2{
+        width: 45vw;
+        height: 3px;
+        background-color: #D2E0E2;
+        float: right;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px){
+    body{
+        background-color: white;
+    }
+    h1{
+        color: white;
+        font-size: 6em;
+        font-weight: bold;
+        font-family: Georgia, serif;
+        margin-top: 400px;
+    }
+    .title_box{
+        width: 100%;
+        height: 600px;
+        background-color: #6A8693;
+    }
+    p{
+        color: darkgray;
+        font-size: 1em;
+        font-family: helvetica, sans-serif;
+        text-align: left;
+    }
+    .poem{
+        width: 40%;
+        height: 100%;
+        margin-top: 100px;
+    }
+    .stanza_one{
+        width: 100%;
+        height: 120px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+    }
+    .stanza_two{
+        width: 100%;
+        height: 120px;
+        margin-left: 600px;
+        margin-bottom: 60px;
+    }
+    .stanza_three{
+        width: 100%;
+        height: 120px;
+        margin-left: 450px;
+        margin-bottom: 60px;
+    }
+
+    .stanza_four{
+        width: 100%;
+        height: 120px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+    }
+
+}
